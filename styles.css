@@ -1,0 +1,54 @@
+.logo-img{
+  width:100px;
+  border-radius:50%;
+  border:2px solid black;
+  display:inline-block;
+  margin-left:10px;
+  
+  
+}
+.dash{
+  margin:5px auto;
+}
+.list-item{
+  display:inline-block;
+  margin:5px 100px;
+}
+h3{
+  font-size: 1.5rem;
+  display: inline;
+  position:absolute;
+  right:0;
+  margin-right:50px;
+  font-weight:normal;
+
+}
+.under{
+  text-decoration: none;
+}
+.pageNumbers{
+  list-style:none;
+  display:flex;
+  
+}
+.pageNumbers li{
+  padding :10px;
+  border:1px solid blue;
+  cursor: pointer;
+}
+.pageNumbers li.active{
+  background-color: black;
+  color:white;
+}
+.pageNumbers li button{
+  background-color: transparent;
+  border:none;
+  color:black;
+  font-size:1.5rem;
+  cursor: pointer;
+}
+.pageNumbers li button:hover{
+  background-color: black;
+  color:white;
+  outline:none;
+}
